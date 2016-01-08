@@ -1,0 +1,61 @@
+html, body {
+  background-color: #f6f6f6;
+  font-family: roboto;
+}
+
+.h1 {
+  font-family: inherit;
+}
+
+header {
+position:fixed;
+background: #fff;
+width:100%;
+line-height: 400%;
+font-size:16px;
+box-shadow: 2px 2px 3px #aebbc7;
+
+}
+
+header img {
+  height: 50px;
+  margin: 10px auto;
+}
+
+header .navbar-default {
+background: #fff;
+border: none;
+min-height: 0;
+min-width: 0;
+margin-bottom: 0;
+vertical-align: middle;
+}
+
+header .navbar-deault .navbar-collapse .collapse {
+  overflow-x: hidden;
+  border: none;
+  position: relative;
+}
+
+.nav li, .nav li a {
+  font-size: 15px;
+  cursor: pointer;
+}
+main {
+  overflow: auto;
+  padding-bottom: 140px;
+  padding-top: 180px;
+  padding-right:100px;
+  padding-left: 50px;
+}
+
+
+footer {
+
+  position: relative;
+  padding: 50px 50px;
+  padding top: 50px;
+  line-height: 120%;
+  background-color: #4cb7db;
+  clear: both;
+}
