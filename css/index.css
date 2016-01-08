@@ -3,8 +3,14 @@ html, body {
   font-family: roboto;
 }
 
-.h1 {
+h1 {
   font-family: inherit;
+  font-weight: 300;
+  color: white;
+}
+
+h3 {
+  color: white;
 }
 
 header {
@@ -37,10 +43,6 @@ header .navbar-deault .navbar-collapse .collapse {
   position: relative;
 }
 
-.nav li, .nav li a {
-  font-size: 15px;
-  cursor: pointer;
-}
 main {
   overflow: auto;
   padding-bottom: 140px;
@@ -49,10 +51,15 @@ main {
   padding-left: 50px;
 }
 
+.welcome-banner {
+    background-image: url('../img/office1.jpg');
+    background-size: cover;
+    background-repeat: no no-repeat;
+}
 
 footer {
-
   position: relative;
+  height: 150px;
   padding: 50px 50px;
   padding top: 50px;
   line-height: 120%;
