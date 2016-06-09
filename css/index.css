@@ -232,6 +232,7 @@ blockquote {
 .bg-image-1 {
 	background: url("../img/bg-image-1.jpg") 50% 0px no-repeat;
 }
+
 .bg-image-2 {
 	background: url("../img/bg-image-2.jpg") 50% 0px no-repeat;
 }
@@ -560,7 +561,7 @@ textarea {
 	margin: 10px 25px 10px 0;
 	display: inline-block;
 	font-size: 36px;
-}
+}c
 .social-links li a {
 	color: #333333;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -594,7 +595,7 @@ textarea {
 .filters .nav-pills > li + li {
 	margin-left: 0px;
 }
-.text-center.filters .nav-pills > li {
+.text-center .filters .nav-pills > li {
 	margin-right: 2px;
 	margin-left: 2px;
 	margin-bottom: 2px;
